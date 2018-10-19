@@ -54,7 +54,5 @@ ListView{
         }
     }
 
-    ScrollBar.vertical: ScrollBar {
-        width: 10
-    }
+    ScrollBar.vertical: ScrollBar {}
 }
