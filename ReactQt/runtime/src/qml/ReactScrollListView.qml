@@ -58,7 +58,7 @@ ListView{
 
     ScrollBar.horizontal: ScrollBar { 
         policy: {
-          if (p_showsHorizontalScrollIndicator) {
+          if(p_showsHorizontalScrollIndicator) {
               ScrollBar.AsNeeded;
           }
           else {
@@ -69,7 +69,7 @@ ListView{
 
     ScrollBar.vertical: ScrollBar { 
         policy: {
-          if (p_showsVerticalScrollIndicator) {
+          if(p_showsVerticalScrollIndicator) {
               ScrollBar.AsNeeded;
           }
           else {
