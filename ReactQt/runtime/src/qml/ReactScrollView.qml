@@ -38,6 +38,7 @@ Flickable {
             }
         }
     }
+
     ScrollBar.vertical: ScrollBar {
         width: 10
     }
