@@ -43,25 +43,11 @@ Flickable {
     }
 
     ScrollBar.horizontal: ScrollBar { 
-        policy: {
-            if(p_showsHorizontalScrollIndicator) {
-                ScrollBar.AsNeeded;
-            }
-            else {
-                ScrollBar.AlwaysOff;
-            }
-        }
+        policy: p_showsHorizontalScrollIndicator ? ScrollBar.AsNeeded : ScrollBar.AlwaysOff;
     }
 
     ScrollBar.vertical: ScrollBar { 
-        policy: {
-            if(p_showsVerticalScrollIndicator) {
-                ScrollBar.AsNeeded;
-            }
-            else {
-                ScrollBar.AlwaysOff;
-            }
-        }
+        policy: p_showsVerticalScrollIndicator ? ScrollBar.AsNeeded : ScrollBar.AlwaysOff;
     }
 
 }
